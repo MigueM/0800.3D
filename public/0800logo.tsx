@@ -4,7 +4,6 @@ Command: npx gltfjsx@6.2.13 0800logo.glb --types
 */
 
 import * as THREE from 'three'
-import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { GLTF } from 'three-stdlib'
 
@@ -29,7 +28,7 @@ export function Logo(props: JSX.IntrinsicElements['group']) {
   const { nodes, materials } = useGLTF('/0800logo.glb') as GLTFResult
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Curve.geometry} material={materials.SVGMat} scale={[58.512, 20.843, 58.512]} material-color={'orange'}/>
+      <mesh geometry={nodes.Curve.geometry} material={materials.SVGMat} scale={[58.512, 20.843, 58.512]} material-color={'#718096'}/>
       <mesh geometry={nodes.Curve001.geometry} material={materials.SVGMat} scale={[58.512, 20.843, 58.512]} />
       <mesh geometry={nodes.Curve002.geometry} material={materials.SVGMat} scale={[58.512, 20.843, 58.512]} />
       <mesh geometry={nodes.Curve003.geometry} material={materials.SVGMat} scale={[58.512, 20.843, 58.512]} />
