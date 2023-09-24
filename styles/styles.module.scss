@@ -1,3 +1,5 @@
+@import '../styles/_variables.scss';
+
 .main {
   display: flex;
   flex-direction: column;
@@ -12,10 +14,10 @@
   justify-content: inherit;
   align-items: inherit;
   font-size: 0.85rem;
-  max-width: var(--max-width);
+  max-width: 1100px;
   width: 100%;
   z-index: 2;
-  font-family: var(--font-mono);
+  font-family: 'Rubik';
 }
 
 .description a {
@@ -29,28 +31,28 @@
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
+  background-color: rgba( 238, 240, 241, 0.5);
+  border: 1px solid rgba(172, 175, 176, 0.3);
+  border-radius: 12px;
 }
 
 .code {
   font-weight: 700;
-  font-family: var(--font-mono);
+  font-family: monospace;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
-  width: var(--max-width);
+  width: 1100px;
   max-width: 100%;
 }
 
 .card {
   padding: 1rem 1.2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
+  border-radius: 12px;
+  background: rgba(180, 185, 188, 0);
+  border: 1px solid rgba(172, 175, 176, 0);
   transition: background 200ms, border 200ms;
 }
 
@@ -81,7 +83,12 @@
 }
 
 .center::before {
-  background: var(--secondary-glow);
+  background: linear-gradient(
+    to bottom right,
+    rgba(1, 65, 255, 0),
+    rgba(1, 65, 255, 0),
+    rgba(1, 65, 255, 0.3)
+  );
   border-radius: 50%;
   width: 480px;
   height: 360px;
@@ -89,7 +96,7 @@
 }
 
 .center::after {
-  background: var(--primary-glow);
+  background: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));;
   width: 240px;
   height: 180px;
   z-index: -1;
@@ -110,8 +117,8 @@
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    background: rgba(100, 100, 100, 0.1);
+    border: 1px solid rgba(200, 200, 200, 0.15);
   }
 
   .card:hover span {
@@ -177,11 +184,11 @@
     padding: 2rem 1rem 1.4rem;
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
+    border-bottom: 1px solid rgba(108, 108, 108, 0.25);
     background: linear-gradient(
       to bottom,
-      rgba(var(--background-start-rgb), 1),
-      rgba(var(--callout-rgb), 0.5)
+      rgba(214, 219, 220, 1),
+      rgba(238, 240, 241, 0.5)
     );
     background-clip: padding-box;
     backdrop-filter: blur(24px);
@@ -196,7 +203,7 @@
     background: linear-gradient(
       to bottom,
       transparent 0%,
-      rgb(var(--background-end-rgb)) 40%
+      rgb(0, 0, 0) 40%
     );
     z-index: 1;
   }
