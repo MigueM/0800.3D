@@ -21,7 +21,7 @@ function RenderLogo(props) {
     mesh.rotation.y = Math.sin(t / 1.5) / 10;
     }
   });
-  const scaleMobile = useCheckMobileScreen() ? 0.6 : 1;
+  const scaleMobile = useCheckMobileScreen() ? 0.5 : 1;
   return (
     <mesh {...props} ref={ref} scale={scaleMobile}>
       <Logo position={[0, 0, 0]} dispose={null} />

@@ -3,7 +3,7 @@ import {
   Heading,
   Text,
 } from '@chakra-ui/react';
-import LogoScene from '../app/components/Model';
+import LogoScene from '../app/components/LogoScene';
 
 
 const IndexPage = () => {
