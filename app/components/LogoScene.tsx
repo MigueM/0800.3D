@@ -33,8 +33,9 @@ const LogoScene = () => {
     <Flex minHeight={'300px'}>
       <Canvas camera={{ position: [0, 0, 10], fov: 55 }} gl={{ preserveDrawingBuffer: true }} style={{ height: '300px' }}>
         <ambientLight intensity={1} />
-        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={10} />
-        <pointLight position={[-10, -10, -10]} />
+        <spotLight position={[0, 0, 10]} angle={0.15} penumbra={10} />
+        <pointLight position={[5, 0, -5]} intensity={9} color={'white'}/>
+        <pointLight position={[-5, 0, -5]} intensity={9} color={'white'}/>
         <Suspense fallback={'Loading Model'}>
           <RenderLogo position={[0, 0, 0]} />
           <Preload all />
