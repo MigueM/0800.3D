@@ -13,11 +13,13 @@ function RenderLogo(props) {
   const ref = useRef();
   useFrame(state => {
     const t = state.clock.getElapsedTime();
-    const object3D = ref.current as THREE.Object3D;
-    object3D.rotation.z =  5* Math.sin(t / 1.5) / 20;
-    object3D.rotation.x = -80 + Math.cos(t / 4) / 8;
-    object3D.rotation.y = Math.sin(t / 4) / 8;
-    object3D.rotation.y = Math.sin(t / 1.5) / 10;
+    const mesh = ref.current as THREE.Mesh | undefined;
+    if (mesh) {
+    mesh.rotation.z =  5* Math.sin(t / 1.5) / 20;
+    mesh.rotation.x = -80 + Math.cos(t / 4) / 8;
+    mesh.rotation.y = Math.sin(t / 4) / 8;
+    mesh.rotation.y = Math.sin(t / 1.5) / 10;
+    }
   });
   const scaleMobile = useCheckMobileScreen() ? 0.6 : 1;
   return (
