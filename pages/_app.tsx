@@ -1,3 +1,4 @@
+import React from 'react';
 import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import theme from '../app/theme';
 import { Rubik } from 'next/font/google';

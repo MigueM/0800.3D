@@ -1,28 +1,20 @@
-import Image from 'next/image';
-import styles from '../styles/styles.module.scss';
+import React from 'react';
 
 import {
   Flex,
-  Container,
   Heading,
-  Stack,
   Text,
-  Button,
-  Icon,
-  IconProps,
-  useColorMode,
-  useColorModeValue,
 } from '@chakra-ui/react';
+import LogoScene from '../app/components/Model';
 
 
 const IndexPage = () => {
-  const formBackground = useColorModeValue('gray.100', 'gray.700')
 
   return (
-    <Flex height="100vh" alignItems="center" justifyContent="center">
-      <Flex direction="column" background={formBackground} p={12} rounded={25}>
+    <Flex height="100vh" alignItems="center" justifyContent="center" m={2}>
+      <Flex direction="column" background='gray.700' p={12} rounded={25}>
+        <LogoScene/>
         <Heading mb={6}>
-          08003D
           <Text color={'orange.400'}>Tu imaginación, nuestra inspiración</Text>
         </Heading>
         <Text color={'gray.500'} maxW={'3xl'} mb={6}>
