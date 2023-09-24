@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 08003D
 
-## Getting Started
+### Descripción del proyecto
 
-First, run the development server:
+Este proyecto proporciona una plataforma para que los usuarios soliciten objetos impresos en 3D personalizados. Los usuarios pueden elegir de una biblioteca de diseños predefinidos o explicar su idea para obtener un modelo personalizado. Una vez que se envía una solicitud, es evisada por un equipo de diseñadores e ingenieros 3D experimentados. Una vez que se aprueba la solicitud, el modelo se crea e imprime y luego se envía al usuario.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### How to use the project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Explora la biblioteca de diseños predefinidos o explica tu idea en detalle.
+2. Selecciona el material y el acabado en el que deseas que se imprima tu objeto.
+3. Agrega tu solicitud a tu carrito y confirma el pedido.
+4. Tu objeto se imprimirá y se te enviará en un plazo de 3 a 5 días hábiles.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Beneficios de usar el proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Obtén tus objetos impresos en 3D personalizados de forma rápida y sencilla.
+- No necesitas tener tu propia impresora 3D ni habilidades de diseño.
+- Accede a un equipo de diseñadores e ingenieros 3D experimentados.
+- Amplia variedad de materiales y acabados para elegir.
 
-## Learn More
+### Precios
 
-To learn more about Next.js, take a look at the following resources:
+El precio de los servicios de impresión 3D varía según el tamaño, la complejidad y el material del objeto. Sin embargo, ofrecemos precios competitivos y descuentos para pedidos al por mayor.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Contáctanos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Si tienes alguna pregunta o necesitas ayuda con tu solicitud, no dudes en contactarnos a 08003d.studio@gmail.com
 
-## Deploy on Vercel
+### Contribuyendo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Agradecemos las contribuciones de la comunidad. Si tienes alguna idea o corrección de errores, no dudes en contactarnos.
