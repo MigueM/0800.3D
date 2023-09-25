@@ -15,7 +15,7 @@ const IndexPage = () => {
         <Heading mb={6}>
           <Text color={'orange.400'}>Tu imaginación, nuestra inspiración</Text>
         </Heading>
-        <Text color={'gray.500'} maxW={'3xl'} mb={6}>
+        <Text color={'gray.500'} maxW={'3xl'}>
           ¿Tenes una idea para un producto o prototipo? ¿Queres
           crear un modelo personalizado para un proyecto de arte o decoración?
           Con nuestros servicios de diseño e impresión 3D, puedes hacer realidad
