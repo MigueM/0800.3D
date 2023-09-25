@@ -24,7 +24,7 @@ function RenderLogo(props) {
   const scaleMobile = useCheckMobileScreen() ? 0.5 : 1;
   return (
     <mesh {...props} ref={ref} scale={scaleMobile}>
-      <Logo position={[0, 0, 0]} dispose={null} />
+      <Logo position={[-.5, 0, 0]} dispose={null} />
     </mesh>
   );
 }
