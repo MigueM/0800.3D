@@ -5,8 +5,8 @@ import { useRef } from 'react';
 import { Suspense } from 'react';
 import { OrbitControls, PerspectiveCamera, Preload } from '@react-three/drei';
 
-import { Logo } from '../../public/0800logo';
-import useCheckMobileScreen from '../../utils/checkMoblieScreen';
+import { Logo } from '../../../public/0800logo';
+import useCheckMobileScreen from '../../../utils/checkMoblieScreen';
 import { Flex } from '@chakra-ui/react';
 
 function RenderLogo(props) {

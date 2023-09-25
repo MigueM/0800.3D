@@ -6,8 +6,9 @@ const config: ThemeConfig = {
   useSystemColorMode: false,
 }
 
+/* heading: 'var(--font-rubik)', */
 const fonts = {
-  heading: 'var(--font-rubik)',
+  heading: 'var(--font-kredit)',
   body: 'var(--font-rubik)',
 }
 
